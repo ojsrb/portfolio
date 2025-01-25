@@ -30,7 +30,7 @@
     <br />
     <h1>Hi, I'm Owen.</h1>
     <br />
-    <img src="/src/lib/assets/owen.jpeg" class="w-1/2 mx-auto rounded-lg" alt="Picture of owen at a lake in the mountains.">
+    <img src="$lib/assets/owen.jpeg" class="w-1/2 mx-auto rounded-lg" alt="Picture of owen at a lake in the mountains.">
     <br />
     <h2 class="w-1/2 mx-auto mb-16">I'm a highschooler interested in programming, web design, and engineering.</h2>
     {#each activities as a}
