@@ -8,10 +8,6 @@
             link: "/"
         },
         {
-            name: 'About',
-            link: "/about"
-        },
-        {
             name: 'Projects',
             link: "/projects"
         },
@@ -27,8 +23,6 @@
 
 </script>
 
-
-
 <div class="sticky top-1 bg-owen-gray overflow-hidden flex flex-row rounded-xl h-16 align-middle m-3">
     <p class="p-3 m-2 font-black text-xl text-owen-blue bg-owen-white rounded-lg transition-colors ease-in-out duration-500 hover:animate-spin" >Owen</p>
     {#each buttons as b}
@@ -43,7 +37,6 @@
     :global(body) {
         @apply bg-owen-black;
         @apply text-owen-white;
-        @apply bg-gradient-to-b from-owen-light-gray to-owen-black;
         @apply bg-cover bg-center bg-no-repeat bg-fixed bg-blend-normal;
         font-family: 'Nunito', sans-serif;
     }

@@ -5,7 +5,20 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {},
+		extend: {
+			animation: {
+				fadeIn: "fadeIn 2s ease-in forwards"
+			},
+			keyframes: {
+				fadeIn: {
+					"0%": { opacity: 0 },
+					"100%": { opacity: 1 }
+				}
+			},
+			variants: {
+				animation: ["motion-safe"]
+			}
+		},
 		colors: {
 			'owen-gray': '#333',
 			'owen-white': '#F2F3F4ff',
@@ -18,3 +31,5 @@ export default {
 
 	plugins: [typography]
 } satisfies Config;
+
+
