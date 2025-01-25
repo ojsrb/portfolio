@@ -1,6 +1,8 @@
 <script>
     import {reveal} from 'svelte-reveal';
 
+    import owen from "$lib/assets/owen.jpeg";
+
     const activities = [
         {
             name: "ONW Engineering Academy",
@@ -20,17 +22,13 @@
         }
     ]
 
-    let activitiesCheck = false;
-    function activitiesShow() {
-        activitiesCheck = !activitiesCheck;
-    }
 </script>
 
 <div class="mx-auto w-fit text-center justify-center content-center">
     <br />
     <h1>Hi, I'm Owen.</h1>
     <br />
-    <img src="$lib/assets/owen.jpeg" class="w-1/2 mx-auto rounded-lg" alt="Picture of owen at a lake in the mountains.">
+    <img src={owen} class="w-1/2 mx-auto rounded-lg" alt="owen at a lake in the mountains.">
     <br />
     <h2 class="w-1/2 mx-auto mb-16">I'm a highschooler interested in programming, web design, and engineering.</h2>
     {#each activities as a}
