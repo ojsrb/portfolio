@@ -14,19 +14,15 @@
         {
             name: "Services",
             link: "/services"
-        },
-        {
-            name: 'Contact',
-            link: "/contact"
         }
     ]
 
 </script>
 
 <div class="sticky top-1 bg-owen-gray overflow-hidden flex flex-row rounded-xl h-16 align-middle m-3">
-    <p class="p-3 m-2 font-black text-xl text-owen-blue bg-owen-white rounded-lg transition-colors ease-in-out duration-500 hover:animate-spin" >Owen</p>
+    <p class="p-3 px-2 m-2 font-black text-xl text-owen-white bg-owen-blue rounded-lg transition-colors ease-in-out duration-500 hover:animate-spin" >Owen</p>
     {#each buttons as b}
-        <a href={b.link} class="p-3 m-2 hover:bg-owen-white rounded-lg hover:text-owen-gray align-middle text-lg transition ease-in-out duration-500 hover:scale-110">{b.name}</a>
+        <a href={b.link} class="p-3 my-2 mx-1 hover:bg-owen-white rounded-lg hover:text-owen-gray align-middle text-lg transition ease-in-out duration-500 hover:scale-110">{b.name}</a>
     {/each}
 </div>
 
