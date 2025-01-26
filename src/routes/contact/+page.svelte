@@ -10,8 +10,8 @@
 
     const contact = [{
             name: "Email: ",
-            text: "owenschmidt2010@gmail.com",
-            link: "owenschmidt@gmail.com",
+            text: "owen@owenschmidt.tech",
+            link: "owen@owenschmidt.tech",
             icon: mail,
             copy: false,
         },
