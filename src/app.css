@@ -3,13 +3,13 @@
 @import 'tailwindcss/utilities';
 
 h1 {
-    @apply text-6xl;
+    @apply text-5xl;
     @apply font-extrabold
 }
 
 h2 {
-    @apply text-3xl;
-    @apply font-bold
+    @apply text-2xl;
+    @apply font-semibold;
 }
 
 p {
