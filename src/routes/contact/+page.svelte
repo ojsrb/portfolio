@@ -1,10 +1,10 @@
 <script>
 
-    import game from "$lib/assets/game.svg";
-    import mail from "$lib/assets/mail.svg";
-    import message from "$lib/assets/message.svg";
-    import phone from "$lib/assets/phone.svg";
-    import code from "$lib/assets/code.svg";
+    import game from "$lib/assets/icons/game.svg";
+    import mail from "$lib/assets/icons/mail.svg";
+    import message from "$lib/assets/icons/message.svg";
+    import phone from "$lib/assets/icons/phone.svg";
+    import code from "$lib/assets/icons/code.svg";
 
     import {copy} from 'svelte-copy';
 

@@ -1,7 +1,7 @@
 <script>
     import {reveal} from 'svelte-reveal';
 
-    import owen from "$lib/assets/owen.jpeg";
+    import owen from "$lib/assets/pictures/owen.jpeg";
 
     const activities = [
         {
