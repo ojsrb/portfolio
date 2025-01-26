@@ -20,7 +20,10 @@ const config = {
 				experimentalJsonConfig: false,
 				persist: false
 			}
-		})
+		}),
+		alias: {
+			$lib: './src/lib',
+		}
 	}
 };
 
