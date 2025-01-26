@@ -1,6 +1,6 @@
 # Owen Schmidt
 Software developer, web designer, highschooler.
 
-### Welcome to my Portfolio
+### This is my protfolio, I hope you like it! :)
 
 [owenschmidt.tech](owenschmidt.tech)
