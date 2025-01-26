@@ -1,6 +1,5 @@
 <script>
 
-    import owen from "$lib/assets/owen.jpeg";
     import game from "$lib/assets/game.svg";
     import mail from "$lib/assets/mail.svg";
     import message from "$lib/assets/message.svg";
