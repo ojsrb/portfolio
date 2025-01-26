@@ -10,7 +10,7 @@
         },
         {
             name: "FIRST Robotics Team 1710",
-            blurb: "My highschool's robotics team. I am a part of the Informatics subteam, where we maintain team websites, collect data from competitions, and analyze that data to refine our strategies and predict future matches."
+            blurb: "My highschool's robotics team, where I am a part of the Informatics subteam. We are in charge of maintaining team websites, collecting data from competitions, and analyzing that data to refine our strategies and predict future matches."
         },
         {
             name: "ONW Orchestra",
@@ -24,13 +24,16 @@
 
 </script>
 
-<div class="mx-auto w-fit text-center justify-center content-center">
+<div class="mx-auto w-5/6 lg:w-3/4 text-center justify-center content-center">
     <br />
     <h1>Hi, I'm Owen.</h1>
     <br />
-    <img src={owen} class="w-3/4 mx-auto rounded-lg" alt="owen at a lake in the mountains.">
+    <img src={owen} class="w-max mx-auto rounded-lg" alt="owen at a lake in the mountains.">
     <br />
     <h2 class="w-3/4 mx-auto mb-16">I'm a highschooler interested in programming, web design, and engineering.</h2>
+    <br />
+    <h1 class="w-5/6 lg:w-max mx-auto">Here are some things I'm a part of:</h1>
+    <br />
     {#each activities as a}
         <div use:reveal={{transition: "scale", duration: 750}}>
             <h2 class="m-5">{a.name}</h2>
