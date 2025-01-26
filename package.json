@@ -32,7 +32,6 @@
 	"dependencies": {
 		"@tailwindcss/typography": "^0.5.15",
 		"svelte-inview": "^4.0.4",
-		"svelte-reveal": "^1.1.0",
-		"taos": "^1.0.5"
+		"svelte-reveal": "^1.1.0"
 	}
 }
