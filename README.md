@@ -1,6 +1,7 @@
 # Owen Schmidt
 Software developer, web designer, highschooler.
+This is my portfolio :)
 
-### This is my portfolio, I hope you like it! :)
+Made with SvelteKit and Tailwindcss 2025
 
-[owenschmidt.tech](owenschmidt.tech)
+[owenschmidt.pages.dev](owenschmidt.pages.dev)
